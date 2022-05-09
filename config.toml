@@ -1,0 +1,64 @@
+baseURL = 'http://example.org/'
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "docs"
+
+author = "Trevor Idayaa Kevin Xavier"
+title = "Trevor Idayaa Kevin Xavier"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Trevor Idayaa Kevin Xavier"
+intro = "Master of Engineering in Operations Research: Applied Operations Research at Cornell University"
+description = "Trevor's Personal Website. <br/> \"Never stay satisfied.\""
+authorimage = "/images/headshot.jpeg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "txavier1998"
+linkedin = "trevor-xavier/"
+email = "tx28@cornell.edu"
+
+
+## Extras
+[params.extra]
+copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "Resume"
+    weight = 100
+    identifier = "Resume"
+    url = "https://drive.google.com/file/d/1F1C1HUO5O0zik7zz5im_ChJip5WRfeTJ/view?usp=sharing"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    identifier = "Projects"
+    weight = 300
+    url = "/Projects/"
