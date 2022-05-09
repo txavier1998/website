@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://txavier1998.github.io/website/'
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
