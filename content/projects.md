@@ -3,6 +3,12 @@ title: "Projects"
 date: 2022-05-09T16:02:07-04:00
 draft: true
 ---
+#### Built ML Pipeline in ServicNow using Deep Learning & AzureML
+- Developed and deployed an LSTM time series model with 87% accuracy to forecast supply chain incidents.
+- Enabled proactive escalation strategies, resulting in reduced operational costs and improved response times.
+- Built and maintained data pipelines using Python, SQL, and Azure for model training and deployment.
+- Integrated insights into Power BI dashboards used by senior leadership for decision-making.
+- Collaborated cross-functionally with analysts and ops teams to align model outputs with business needs
 
 #### Predicting 3 Pointer Accuracy for NBA Players
 - Scraped 10 years’ worth of NBA shooting statistics and Implemented data pre-processing and feature engineering such as
@@ -27,3 +33,5 @@ Link: https://docs.google.com/presentation/d/1m4hx8SRabemlDn3Eyjkj2HWptiyehVfrbh
 The goal of our project is to help insurers predict the level of risk (high/low) associated with a prospective client seeking to purchase a life insurance plan. We have built predictive models for binary classification using Logistic Regression, KNN, Decision Trees, Random Forests and Gradient Boosting. We found the test accuracy for Logistic Regression to be 65.7%, 68.3% for the KNN model, 68.6% for Decision Trees and 72% for the random forest model. 
 
 Link: https://docs.google.com/document/d/1PZB2Hn9N_avAGBi036vuU1omyeLrl00bDa2xUzodxPQ/edit?usp=sharing
+
+
